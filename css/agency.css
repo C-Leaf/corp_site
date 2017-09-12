@@ -32,8 +32,8 @@ section {
     margin-top: 0;
     margin-bottom: 15px; }
   section h3.section-subheading {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 900;
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
@@ -366,6 +366,8 @@ header.masthead {
     margin-bottom: 0; }
 
 @media (min-width: 768px) {
+  h3.section-subheading {
+    font-weight: bold; }
   .timeline:before {
     left: 50%; }
   .timeline > li {
@@ -438,14 +440,15 @@ header.masthead {
     /*margin-top: 0;*/ }
 
 section#info {
+  max-width: 50%;
   background-color: #222222;
   font-size: 120%; }
-  .img {
-    opacity: 0.5;
-    width: 200px;
-    height: auto;
+  img {
+    opacity: 0.1;
+    width: auto;
+    max-height: 10px;
   }
-  .address {
+  /*.address {
     word-wrap: break-word;
     font-size: 120%;
   }
@@ -458,6 +461,12 @@ section#info {
   .telnum {
     word-wrap: break-word;
   }
+  .employee {
+    word-wrap: break-word;
+  }
+  .employeenum {
+    word-wrap: break-word;
+  }*/
 
 section#contact {
   background-color: #222222;
